@@ -553,6 +553,14 @@
     box-shadow: 0 4px 12px rgba(24,119,242,0.35);
     letter-spacing: 0.3px;
     flex-shrink: 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .follow-band .fb-btn:hover {
+    background: #145dbf;
+    box-shadow: 0 6px 18px rgba(24,119,242,0.5);
   }
 
   .follow-band .fb-btn .fb-f {
@@ -744,9 +752,9 @@
   <div class="follow-band">
     <span class="pointer">👉</span>
     <span class="fc-text">Follow us for <b>date &amp; registration details</b></span>
-    <div class="fb-btn">
+    <a class="fb-btn" href="https://www.facebook.com/graftnepal" target="_blank" rel="noopener noreferrer">
       <span class="fb-f">f</span> Graft Nepal
-    </div>
+    </a>
   </div>
 
   <div class="bottom">
